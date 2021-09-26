@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title>Health-App</title>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    
+
+    <style>
+      section.pricing {
+        background: #d7d7da;
+        background: linear-gradient(to right, #3987ee, #e1e7eb);
+      }
+
+      .pricing .card {
+        border: none;
+        border-radius: 1rem;
+        transition: all 0.2s;
+        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+      }
+
+      .pricing hr {
+        margin: 1.5rem 0;
+      }
+
+      .pricing .card-title {
+        margin: 0.5rem 0;
+        font-size: 0.9rem;
+        letter-spacing: 0.1rem;
+        font-weight: bold;
+      }
+
+      .pricing .card-price {
+        font-size: 3rem;
+        margin: 0;
+      }
+
+      .pricing .card-price .period {
+        font-size: 0.8rem;
+      }
+
+      .pricing ul li {
+        margin-bottom: 1rem;
+      }
+
+      .pricing .text-muted {
+        opacity: 0.7;
+      }
+
+      .pricing .btn {
+        font-size: 80%;
+        border-radius: 5rem;
+        letter-spacing: 0.1rem;
+        font-weight: bold;
+        padding: 1rem;
+        opacity: 0.7;
+        transition: all 0.2s;
+      }
+
+      /* Hover Effects on Card */
+
+      @media (min-width: 992px) {
+        .pricing .card:hover {
+          margin-top: -0.25rem;
+          margin-bottom: 0.25rem;
+          box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+        }
+        .pricing .card:hover .btn {
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="/home">Health Prediction App</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link mr-3 " href="/about">About
+          </a>
+          <a class="nav-item nav-link mr-3 " href="/data">Data Visualization
+          </a>
+         <!--  <a class="nav-item nav-link mr-3 " href="/login">Sign-Out
+          </a>--> 
+          
+          
+        </div>
+      </div>
+    </nav>
+
+    <div class="jumbotron">
+      <h1 class="display-5">Hello, People!</h1>
+      <p class="lead ">
+        A web application for health prediction for various disease using Machine Learning based on the Kaggle Datasets.
+      </p>
+      
+    </div>
+
+    <section  class="pricing py-5">
+      <div style="margin-left: 5%;"class="container">
+        <div class="row">
+          <!-- Free Tier -->
+          <div class="col-lg-4">
+            <div class="card mb-5 mb-lg-0">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center">
+                  HEART DISEASE PREDICTION
+                </h5>
+
+                <hr />
+                <p class="">
+                  Heart disease is one of the biggest cause for morbidity and
+                  mortality among the population of the world. Prediction of
+                  cardiovascular disease is regarded as one of the most
+                  important subject in the section of clinical data analysis.
+                  The amount of data in the healthcare industry is huge. Data
+                  mining turns the large collection of raw healthcare data into
+                  information that can help to make informed decision and
+                  prediction.
+                </p>
+                <a
+                  href="/heart"
+                  class="btn btn-block btn-danger text-uppercase"
+                  >KNOW HEART  STATUS</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Plus Tier -->
+         
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section  class="pricing py-5">
+      <div style="margin-left: 35%; margin-top: -36%;"class="container">
+        <div class="row">
+          <!-- Free Tier -->
+          <div class="col-lg-4">
+            <div class="card mb-5 mb-lg-0">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center">
+                  DIABETICS PREDICTION
+                </h5>
+
+                <hr />
+                <p class="">
+                  Diabetes is a disease that occurs when your 
+                  blood glucose, also called blood sugar, is too high. 
+                  Blood glucose is your main source of energy and comes 
+                  from the food you eat. Insulin, a hormone made by the pancreas, 
+                  helps glucose from food get into your cells to be used for energy.
+                  Data mining turns the large collection of raw healthcare data into
+                  information that can help to make informed decision and
+                  prediction.
+                  
+                </p>
+                <a
+                  href="/diabetics"
+                  class="btn btn-block btn-danger text-uppercase"
+                  >KNOW DIABETICS STATUS</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Plus Tier -->
+         
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section  class="pricing py-5">
+      <div style="margin-left: 65%;margin-top: -42%;"class="container">
+        <div class="row">
+          <!-- Free Tier -->
+          <div class="col-lg-4">
+            <div class="card mb-5 mb-lg-0">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center">
+                  CHRONIC KIDNEY DISEASE PREDICTION
+                </h5>
+
+                <hr />
+                <p class="">
+                  Chronic kidney disease, also called chronic kidney failure,
+                
+                  Your kidneys filter wastes and excess fluids from your blood, 
+                  which are then excreted in your urine. The two main causes of 
+                  chronic kidney disease are diabetes and high blood pressureData
+                  mining turns the large collection of raw healthcare data into
+                  information that can help to make informed decision and
+                  prediction.
+                </p>
+                <a
+                  href="/kidney"
+                  class="btn btn-block btn-danger text-uppercase"
+                  >KNOW KIDNEY STATUS</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Plus Tier -->
+         
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section  class="pricing py-5">
+      <div style="margin-left: 20%; margin-top: -12%;"class="container">
+        <div class="row">
+          <!-- Free Tier -->
+          <div class="col-lg-4">
+            <div class="card mb-5 mb-lg-0">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center">
+                  BREAST CANCER PREDICTION
+                </h5>
+
+                <hr />
+                <p class="">
+                  Breast cancer is a disease in which cells in the breast 
+                  grow out of control. There are different kinds of breast cancer. 
+                  The kind of breast cancer depends on which cells in the breast turn into cancer. 
+                  Breast cancer can begin in different parts of the breast.
+                  Data
+                  mining turns the large collection of raw healthcare data into
+                  information that can help to make informed decision and
+                  prediction.
+                </p>
+                <a
+                  href="/breast"
+                  class="btn btn-block btn-danger text-uppercase"
+                  >KNOW BREAST STATUS</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Plus Tier -->
+         
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section  class="pricing py-5">
+      <div style="margin-left: 52%; margin-top: -35%;"class="container">
+        <div class="row">
+          <!-- Free Tier -->
+          <div class="col-lg-4">
+            <div class="card mb-5 mb-lg-0">
+              <div class="card-body">
+                <h5 class="card-title text-muted text-uppercase text-center">
+                  Liver DISEASE PREDICTION
+                </h5>
+
+                <hr />
+                <p class="">
+                  Hepatocellular carcinoma (HCC)the most common 
+                  risk factor for liver cancer is chronic (long-term) 
+                  infection with hepatitis B virus (HBV) or hepatitis C virus (HCV).
+                  most cases are 
+                  associated with damage and scarring of the liver known as cirrhosis.
+                  Data
+                  mining turns the large collection of raw healthcare data into
+                  information that can help to make informed decision and
+                  prediction.
+
+                </p>
+                <a
+                  href="/liver"
+                  class="btn btn-block btn-danger text-uppercase"
+                  >KNOW LIVER STATUS</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Plus Tier -->
+         
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- 
+    <footer id="footer" style="color: rgb(114, 110, 110); margin-bottom: 5%; margin-left: 40%;">
+      &copy; Copyright Mbedtech 2021
+      <p id="footer" style="color: rgb(243, 12, 12); margin-bottom: 5%; margin-left: 2.5%; ">Powered by W3 School</p>
+    </footer>  
+    -->
+
+  </body>
+</html>
